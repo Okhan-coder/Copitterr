@@ -25,3 +25,7 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://recordit.co/piCmqodIfr.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+Second walkthrough showing missed feature such as launch screen and loggin across restart
+<img src='https://recordit.co/NOxI2meXOF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
