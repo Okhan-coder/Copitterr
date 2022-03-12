@@ -9,7 +9,8 @@
 import UIKit
 
 class HomteTableTableViewController: UITableViewController {
-
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +22,10 @@ class HomteTableTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+  
+    @IBAction func onLogout(_ sender: Any) {
+        TwitterAPICaller.client?.logout()
+        self.dismiss(animated: true, completion: nil)    }
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
